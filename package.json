@@ -1,5 +1,5 @@
 {
-  "name": "falcion-scripting",
+  "name": "scripting",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Falcion/Falcion.scripts-org.git"
+    "url": "git+https://github.com/Falcion/Falcion.org.git"
   },
   "keywords": [
     "scripts"
@@ -16,9 +16,9 @@
   "author": "Falcion",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Falcion/Falcion.scripts-org/issues"
+    "url": "https://github.com/Falcion/Falcion.org/issues"
   },
-  "homepage": "https://github.com/Falcion/Falcion.scripts-org#readme",
+  "homepage": "https://github.com/Falcion/Falcion.org#readme",
   "description": "",
   "engines": {
     "npm": ">=10.0.0",
