@@ -1,0 +1,36 @@
+{
+  "name": "falcion-scripting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd python/ && pip install -r requirements.txt",
+    "prepare": "cd python/ && python3 -m venv venv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falcion/Falcion.scripts-org.git"
+  },
+  "keywords": [
+    "scripts"
+  ],
+  "author": "Falcion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Falcion/Falcion.scripts-org/issues"
+  },
+  "homepage": "https://github.com/Falcion/Falcion.scripts-org#readme",
+  "description": "",
+  "engines": {
+    "npm": ">=10.0.0",
+    "node": ">=21.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2",
+    "ts-node": "^10.9.2",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "python": "^0.0.4"
+  }
+}
