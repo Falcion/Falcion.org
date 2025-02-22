@@ -1,0 +1,25 @@
+name: "Project planner for GLOBAL"
+description: "This is personified tracker for all issues and activity on my repositories accordingly."
+# Write here below only custom settings and changes
+status:
+  - name: Planned
+    color: Pink
+    description: "This item is planned, but won't be started in current situation"
+priority:
+  - name: P3
+    color: Blue
+    description:
+  - name: P4
+    color: Green
+    description:
+prioritized_backlog:
+  - title:
+      - group: false
+  - priority:
+      - group: true
+  - status:
+      - group: false
+  - size:
+      - group: false
+  - estimate:
+      - group: false
